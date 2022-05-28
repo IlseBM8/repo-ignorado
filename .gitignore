@@ -1,0 +1,35 @@
+#se elimina la carpeta secreta
+**/ContenidoSecreto
+
+#ignora el config.php
+**/config.php
+
+#ignora archivos pdf en assets
+assets/*.pdf
+
+#ignora archivos pdf en assets media files
+assets/media/files/*.pdf
+
+#ignora archivos txt
+*.txt
+
+#ignora imagenes 
+*.jpg
+*.gif
+*.jpeg
+*.png
+*.webp
+#a menos que contengan system 
+!*-system*.jpg
+!*-system*.jpeg
+!*-system*.webp
+
+
+
+*-local.html
+*-local.js
+*-local.php
+
+*-prueba.php
+
+!*-experimento*.js
